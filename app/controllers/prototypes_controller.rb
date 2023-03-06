@@ -4,6 +4,7 @@ class PrototypesController < ApplicationController
 
   def index
     @prototypes = Prototype.all
+    # @prototype = Prototype.find(params[:id])  
   end
 
   def new
